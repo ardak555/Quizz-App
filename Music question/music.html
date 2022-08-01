@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="C:\Users\Casper\Desktop\Quiz App\CSS Folder\Template.css">
+    <link rel="stylesheet" href="C:\Users\Casper\Desktop\Quiz App\CSS Folder\music.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="baslık"><a href="C:\Users\Casper\Desktop\Quiz App\main.html">
+                <span class="Q">Q</span>
+                <span class="uiz">uiz App</span></a>
+        </div>
+    </header>
+
+    <div id="puan">Puan:0</div>
+
+    <div class="container">
+        <div class="soru">
+            <audio controls>
+                <source src="C:\Users\Casper\Desktop\Games\ShadowoftheTombRaider\content\OST\15 The Chosen.mp3" type="audio/mpeg">
+          </audio>
+           <div class="soru1">Dinlediğiniz müzikteki baskın ensturman hangisidir?</div>
+        </div>
+        <div class="cevaplar">
+            <div class="ops">
+               <button  class="option" onclick="checkanswer(this,0)">A</button>
+               Keman
+            </div>
+            <div class="ops">
+                <button  class="option" onclick="checkanswer(this,0)">B</button>
+                Gitar
+            </div>
+            <div class="ops">
+                <button  class="option" onclick="checkanswer(this,0)" value="C">C</button>
+                Bateri
+            </div>
+            <div class="ops">
+                <button  class="option" onclick="checkanswer(this,0)">D</button>
+                Kalimba
+            </div>
+        </div>
+    </div>
+
+
+    <script src="./music.js"></script>
+</body>
+</html>
